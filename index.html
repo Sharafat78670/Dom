@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML DOM JS</title>
 </head>
+
 <body>
     <h2>Hello Gonogon......</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente non quod illum aut, aperiam aliquam, blanditiis natus, reiciendis pariatur veritatis tempora. Minus laborum voluptates praesentium et exercitationem dolores, accusamus harum at minima qui ullam? Soluta facilis quasi vel assumenda. Tempora doloribus et minus sint sapiente quos fugit placeat soluta maiores.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente non quod illum aut, aperiam aliquam, blanditiis
+        natus, reiciendis pariatur veritatis tempora. Minus laborum voluptates praesentium et exercitationem dolores,
+        accusamus harum at minima qui ullam? Soluta facilis quasi vel assumenda. Tempora doloribus et minus sint
+        sapiente quos fugit placeat soluta maiores.</p>
 
     <button onclick="document.body.style.backgroundColor='Red'">Red</button>
     <button onclick="blue()">Blue</button>
@@ -15,11 +20,38 @@
     <button id="yellow">Yellow</button>
     <button id="pink">Pink</button>
 
+    <div id="comment-container">
+        <h3>Public Comment</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quo explicabo totam architecto, eligendi,
+            consectetur saepe, animi necessitatibus ex modi atque. Facere molestias distinctio accusantium aliquam fuga
+            necessitatibus, quam, est modi quos adipisci excepturi omnis praesentium. Nihil consequuntur rem cumque?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quo explicabo totam architecto, eligendi,
+            consectetur saepe, animi necessitatibus ex modi atque. Facere molestias distinctio accusantium aliquam fuga
+            necessitatibus, quam, est modi quos adipisci excepturi omnis praesentium. Nihil consequuntur rem cumque?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quo explicabo totam architecto, eligendi,
+            consectetur saepe, animi necessitatibus ex modi atque. Facere molestias distinctio accusantium aliquam fuga
+            necessitatibus, quam, est modi quos adipisci excepturi omnis praesentium. Nihil consequuntur rem cumque?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quo explicabo totam architecto, eligendi,
+            consectetur saepe, animi necessitatibus ex modi atque. Facere molestias distinctio accusantium aliquam fuga
+            necessitatibus, quam, est modi quos adipisci excepturi omnis praesentium. Nihil consequuntur rem cumque?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quo explicabo totam architecto, eligendi,
+            consectetur saepe, animi necessitatibus ex modi atque. Facere molestias distinctio accusantium aliquam fuga
+            necessitatibus, quam, est modi quos adipisci excepturi omnis praesentium. Nihil consequuntur rem cumque?</p>
+    </div>
+
+    <div>
+        <textarea name="" id="comment-box" cols="60" rows="7" placeholder="Please input your valuable comment......"></textarea>
+
+    </div>
+    <button id="btn-box">Submit</button>
+
     <script src="event.js"></script>
+    <script src="comment.js"></script>
     <script>
         function blue() {
-            document.body.style.backgroundColor ='blue';
+            document.body.style.backgroundColor = 'blue';
         }
     </script>
 </body>
+
 </html>
